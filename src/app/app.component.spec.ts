@@ -1,8 +1,10 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { CreateContactComponent } from './create-contact/create-contact.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
 import { ContactSingleComponent } from './contact-single/contact-single.component';
+import { CreateContactComponent } from './create-contact/create-contact.component';
+
+
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
